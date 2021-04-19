@@ -454,7 +454,7 @@ export default {
       this.startPosition = (this.currentPage - 1) * this.pageSize;
       this.$root.$emit("pageChange", this.pageSize, this.currentPage);
     },
-    //Kiểm tra trang hợp lệ
+    //Kiểm tra số trang hợp lệ hay không
     //CreatedBy: VM Hùng(16/04/2021)
     validatePage () {
       
